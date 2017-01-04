@@ -27,6 +27,6 @@ def longestUniqueSubString(string):
 
 
 
-string = "ABDEFGABEF"
+string = "abcabcbb"
 length=longestUniqueSubString(string)
 print length
