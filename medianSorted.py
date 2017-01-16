@@ -2,9 +2,9 @@ def mergesort(nums1,nums2):
     if len(nums1)==0 and len(nums2)==0:
         return -1
     if len(nums1)!=0 and len(nums2)==0:
-        return ""
+        return nums1
     if len(nums1)==0 and len(nums2)!=0:
-        return ""
+        return nums2
     i=0
     j=0
     nums_sorted=[]
@@ -38,7 +38,8 @@ def findMedianSortedArrays(nums1,nums2):
 
 
 
-nums1=[1,2,4]
-nums2=[3,5,6,7]
+nums1=[1,4,11,13]
+nums2=[3,6,7,10,22,25]
 median=findMedianSortedArrays(nums1,nums2)
+print median
 
